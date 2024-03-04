@@ -697,9 +697,9 @@ class _BetterPlayerCupertinoControlsState extends BetterPlayerControlsState<Bett
             ),
             if (_controlsConfiguration.enableRetry)
               TextButton(
-                onPressed: () {
+                onPressed: () async {
                   try {
-                    _betterPlayerController!.retryDataSource();
+                    await _betterPlayerController!.retryDataSource();
                   } catch (error) {
                     // no-op
                   }
