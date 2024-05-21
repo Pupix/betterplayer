@@ -425,10 +425,6 @@ class BetterPlayerController {
           title: _betterPlayerDataSource?.notificationConfiguration?.title,
           author: _betterPlayerDataSource?.notificationConfiguration?.author,
           imageUrl: _betterPlayerDataSource?.notificationConfiguration?.imageUrl,
-          skipForwardTimeInMilliseconds:
-              _betterPlayerDataSource?.notificationConfiguration?.skipForwardTimeInMilliseconds,
-          skipBackwardTimeInMilliseconds:
-              _betterPlayerDataSource?.notificationConfiguration?.skipBackwardTimeInMilliseconds,
           notificationChannelName: _betterPlayerDataSource?.notificationConfiguration?.notificationChannelName,
           overriddenDuration: _betterPlayerDataSource!.overriddenDuration,
           formatHint: _getVideoFormat(_betterPlayerDataSource!.videoFormat),
@@ -454,10 +450,6 @@ class BetterPlayerController {
             title: _betterPlayerDataSource?.notificationConfiguration?.title,
             author: _betterPlayerDataSource?.notificationConfiguration?.author,
             imageUrl: _betterPlayerDataSource?.notificationConfiguration?.imageUrl,
-            skipForwardTimeInMilliseconds:
-                _betterPlayerDataSource?.notificationConfiguration?.skipForwardTimeInMilliseconds,
-            skipBackwardTimeInMilliseconds:
-                _betterPlayerDataSource?.notificationConfiguration?.skipBackwardTimeInMilliseconds,
             notificationChannelName: _betterPlayerDataSource?.notificationConfiguration?.notificationChannelName,
             overriddenDuration: _betterPlayerDataSource!.overriddenDuration,
             activityName: _betterPlayerDataSource?.notificationConfiguration?.activityName,
@@ -473,10 +465,6 @@ class BetterPlayerController {
               title: _betterPlayerDataSource?.notificationConfiguration?.title,
               author: _betterPlayerDataSource?.notificationConfiguration?.author,
               imageUrl: _betterPlayerDataSource?.notificationConfiguration?.imageUrl,
-              skipForwardTimeInMilliseconds:
-                  _betterPlayerDataSource?.notificationConfiguration?.skipForwardTimeInMilliseconds,
-              skipBackwardTimeInMilliseconds:
-                  _betterPlayerDataSource?.notificationConfiguration?.skipBackwardTimeInMilliseconds,
               notificationChannelName: _betterPlayerDataSource?.notificationConfiguration?.notificationChannelName,
               overriddenDuration: _betterPlayerDataSource!.overriddenDuration,
               activityName: _betterPlayerDataSource?.notificationConfiguration?.activityName,
